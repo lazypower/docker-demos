@@ -1,0 +1,13 @@
+sentry:
+    image: slafs/sentry:7.4
+    links:
+        - db
+    ports:
+        - "8000:9000"
+    volumes:
+        - "/tmp/sentry:/data"
+    environment:
+        - SECRET_KEY="sentrydeployedandpoweredbyjuju"
+        - SENTRY_URL_PREFIX="http://localhost/"
+db:
+    image: postgres
