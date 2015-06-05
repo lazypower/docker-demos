@@ -1,0 +1,4 @@
+opsview:
+    image: ruo91/opsview
+    ports:
+        - "80:3000"
