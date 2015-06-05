@@ -1,0 +1,4 @@
+web:
+    image: cpk1224/docker-2048
+    ports:
+        - "3003:80"
