@@ -1,0 +1,4 @@
+web:
+    image: clue/disco
+    ports:
+        - "3001:8080"
