@@ -1,1 +1,2 @@
 twitter-sentiment-analysis/streaming/config.py
+*.pyc
