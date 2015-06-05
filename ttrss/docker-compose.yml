@@ -1,0 +1,9 @@
+db:
+    image: nornagon/postgres
+web:
+    image: clue/ttrss
+    ports:
+        - "3002:80"
+    links:
+        - db
+
